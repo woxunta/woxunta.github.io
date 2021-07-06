@@ -1,7 +1,3 @@
 <a> { color:green; }
 <a>:hover { color: green; }
-header {display: flex; flex-direction: row; flex: auto;}
-body { display: flex; flex-direction: column; }
-main { display: flex; flex: auto; }
-aside{ flex: 1;}
-article{ flex: 3;}
+
