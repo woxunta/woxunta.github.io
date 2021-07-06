@@ -1,40 +1,10 @@
 a:hover {
     color: green;
 }
-body,main{
-    display: flex;
-}
-body{
-    flex-direction: column;
-    background: Cornsilk ;
-
-}
-main{
-    flex: auto;
-}
-aside{
-    flex: 1;
-    background: Ivory    ;
-}
-article{
-    flex: 3;
-    text-align: center;
-    border: 1px solid Indigo  ;
-    border-radius: 5px;
-}
-h1{
-    line-height: 2;
-}
-h2{
-    line-height: 2;
-}
-h3{
-    line-height: 2;
-}
-p {
-    font-size: 15px;
-    background: Azure  ;
-    padding: 10px;
-    border-radius: 5px;
-    line-height: 2;
-}
+header {display: flex; flex-direction: row; flex: auto;}
+body { display: flex; flex-direction: column; }
+header {display: flex; flex-direction: row; flex: auto; }
+body { display: flex; flex-direction: column; flex: auto; }
+main { display: flex; flex: auto; }
+aside{ flex: 1;}
+article{ flex: 3;}
