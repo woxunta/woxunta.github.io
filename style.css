@@ -1,4 +1,4 @@
-a { color:blue; }
+a { color:green; }
 a:hover { color: red; }
 header {display: flex; flex-direction: row; flex: auto;}
 body { display: flex; flex-direction: column; }
